@@ -22,7 +22,16 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Khn-go-j7I"/>
                                 </constraints>
-                                <items/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="stop" id="NkL-ph-OTT">
+                                        <color key="tintColor" red="0.30588235289999999" green="0.76862745099999996" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="78G-Wh-Tmd"/>
+                                    <barButtonItem style="plain" systemItem="add" id="Do4-m5-4LL">
+                                        <color key="tintColor" red="0.30588235294117649" green="0.7686274509803922" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="1" green="0.23225678118546" blue="0.24190281361428823" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
                         </subviews>
