@@ -9,7 +9,22 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mlB-hB-M7G">
+                    <rect key="frame" x="-20" y="436" width="520" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="oa3-mR-wwj"/>
+                    </constraints>
+                    <items/>
+                    <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </toolbar>
+            </subviews>
             <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mlB-hB-M7G" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-20" id="dPO-h4-xvb"/>
+                <constraint firstAttribute="bottom" secondItem="mlB-hB-M7G" secondAttribute="bottom" id="pGs-PZ-5dW"/>
+                <constraint firstAttribute="trailing" secondItem="mlB-hB-M7G" secondAttribute="trailing" constant="-20" id="yKX-AL-fdK"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="548" y="455"/>
