@@ -1,0 +1,18 @@
+PODS:
+  - Nimble (3.0.0)
+  - Quick (0.8.0)
+  - Typhoon (3.4.4):
+    - Typhoon/no-arc (= 3.4.4)
+  - Typhoon/no-arc (3.4.4)
+
+DEPENDENCIES:
+  - Nimble (= 3.0.0)
+  - Quick (~> 0.8.0)
+  - Typhoon
+
+SPEC CHECKSUMS:
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  Typhoon: e937c62b9048f73a93c1aa94f00627d97cecd588
+
+COCOAPODS: 0.39.0
