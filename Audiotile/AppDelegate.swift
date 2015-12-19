@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Audiotile
-//
-//  Created by Keith Weston on 4/9/15.
-//  Copyright (c) 2015 Keiwes. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
