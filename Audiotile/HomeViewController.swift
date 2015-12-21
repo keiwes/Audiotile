@@ -1,24 +1,36 @@
-//
-//  ViewController.swift
-//  Audiotile
-//
-//  Created by Keith Weston on 4/9/15.
-//  Copyright (c) 2015 Keiwes. All rights reserved.
-//
-
 import UIKit
+import ImagePicker
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, ImagePickerDelegate {
     
     
     @IBAction func addButtonTapped(sender: AnyObject) {
-        let alert2 = UIAlertView(title: "Add", message: "You hit the add button", delegate: nil, cancelButtonTitle: "Cancel", otherButtonTitles: "Cool Bro", "Shut up")
-        alert2.show()
+        
+        
+        let imagePickerController = ImagePickerController()
+        imagePickerController.delegate = self
+        presentViewController(imagePickerController, animated: true, completion: nil)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    func wrapperDidPress(images: [UIImage]) {
+        let alert2 = UIAlertView(title: "Wrapper did press", message: "wrapper did press", delegate: nil, cancelButtonTitle: "Cancel", otherButtonTitles: "Cool Bro", "Shut up")
+        alert2.show()
+    }
+    func doneButtonDidPress(images: [UIImage]) {
+        let alert2 = UIAlertView(title: "Done button did press", message: "done button did press", delegate: nil, cancelButtonTitle: "Cancel", otherButtonTitles: "Cool Bro", "Shut up")
+        alert2.show()
+    }
+    func cancelButtonDidPress() {
+        
+    }
+    
+//MARK: Private
+    
+    
 }
 

@@ -10,6 +10,7 @@ def testing_pods
 end
 
 target 'Audiotile' do
+	pod 'ImagePicker'
 	pod 'Typhoon'
 end
 

@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-Audiotile/ImagePicker.framework"
   install_framework "Pods-Audiotile/Typhoon.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-Audiotile/ImagePicker.framework"
   install_framework "Pods-Audiotile/Typhoon.framework"
 fi
